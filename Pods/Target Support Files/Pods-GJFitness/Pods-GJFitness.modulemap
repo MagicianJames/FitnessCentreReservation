@@ -1,0 +1,6 @@
+framework module Pods_GJFitness {
+  umbrella header "Pods-GJFitness-umbrella.h"
+
+  export *
+  module * { export * }
+}

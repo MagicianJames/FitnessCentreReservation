@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "19375AA7-8D79-4785-AD38-F3F48C78ECE8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E300124-3376-4949-9651-5D29A9425D60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GJFitness/Admin/TimeSchedule/TimeScheduleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "updataDataToUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F53A7719-3E69-42C9-A402-AA1A27536D73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GJFitness/Admin/TimeSchedule/TimeScheduleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "updataDataToUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F53A7719-3E69-42C9-A402-AA1A27536D73 - 37d3d6c2488c40de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in GJFitness.TimeScheduleViewController.cellTimeClicked(notification: __C.NSNotification) -&gt; ()"
+                  moduleName = "GJFitness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krittametchuwongworaphinit/Documents/IOS%20Class/GJFitness/GJFitness/Admin/TimeSchedule/TimeScheduleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "F53A7719-3E69-42C9-A402-AA1A27536D73 - 37d3d6c2488c40de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in GJFitness.TimeScheduleViewController.cellTimeClicked(notification: __C.NSNotification) -&gt; ()"
+                  moduleName = "GJFitness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krittametchuwongworaphinit/Documents/IOS%20Class/GJFitness/GJFitness/Admin/TimeSchedule/TimeScheduleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

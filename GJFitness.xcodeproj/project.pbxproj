@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0F7BE225EE1C940050F92D /* EditRoomNumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F7BE125EE1C940050F92D /* EditRoomNumberCell.swift */; };
+		1A0F7BE725EE1E510050F92D /* EditRoomTimeSlotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F7BE625EE1E510050F92D /* EditRoomTimeSlotCell.swift */; };
+		1A27BED325EBD38700BBC16E /* EditRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27BED225EBD38700BBC16E /* EditRoomViewController.swift */; };
+		1A2C7E8A25D8E0A000639591 /* RoomTimeSlotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2C7E8925D8E0A000639591 /* RoomTimeSlotCell.swift */; };
+		1A78838325F5CE8200E70330 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78838225F5CE8200E70330 /* Trainer.swift */; };
+		1A78838B25F5DE2400E70330 /* Trainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78838A25F5DE2400E70330 /* Trainers.swift */; };
+		1A78839025F60D6D00E70330 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78838F25F60D6D00E70330 /* User.swift */; };
+		1A78839525F61ED500E70330 /* ClassEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78839425F61ED500E70330 /* ClassEx.swift */; };
+		1A78839A25F61FE100E70330 /* AllClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78839925F61FE100E70330 /* AllClasses.swift */; };
+		1A87385F25D5979E00B9DAF7 /* CreateClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A87385E25D5979E00B9DAF7 /* CreateClassViewController.swift */; };
+		1A89FE5325D250DA00A43667 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A89FE5225D250DA00A43667 /* Admin.storyboard */; };
+		1A89FE5825D254ED00A43667 /* ClassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A89FE5725D254ED00A43667 /* ClassListViewController.swift */; };
+		1A89FE6525D255BA00A43667 /* ClassListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A89FE6425D255BA00A43667 /* ClassListCell.swift */; };
+		1A9D993A25E4E4A900784990 /* TrainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D993925E4E4A900784990 /* TrainerViewController.swift */; };
+		1AC9561425D819790014D200 /* TimeScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9561325D819790014D200 /* TimeScheduleViewController.swift */; };
+		1AC9562125D822A60014D200 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9562025D822A60014D200 /* RoomCell.swift */; };
+		1AC9562625D826150014D200 /* TimeScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9562525D826150014D200 /* TimeScheduleCollectionViewCell.swift */; };
+		1AC9563225D85B650014D200 /* RoomNumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9563125D85B650014D200 /* RoomNumberCell.swift */; };
+		7CBEDBCE9C60B18A7676BA7D /* Pods_GJFitness_GJFitnessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E9DB0BDA5F010C3B2A0A10 /* Pods_GJFitness_GJFitnessUITests.framework */; };
+		8CCD346D7E884AB6B6CEE2C7 /* Pods_GJFitnessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC791209400284443E4FE846 /* Pods_GJFitnessTests.framework */; };
+		B5071E2225F52489004AD5F1 /* EditSlotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5071E2125F52489004AD5F1 /* EditSlotCollectionViewCell.swift */; };
+		B5071E2725F524AB004AD5F1 /* EditRoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5071E2625F524AB004AD5F1 /* EditRoomViewCell.swift */; };
+		B5071E2C25F524F7004AD5F1 /* EditTimeSlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5071E2B25F524F7004AD5F1 /* EditTimeSlotViewController.swift */; };
+		B5205FD525D972B900430198 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5205FD425D972B900430198 /* MemberViewController.swift */; };
+		B5205FDA25D975A400430198 /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5205FD925D975A400430198 /* MemberTableViewCell.swift */; };
+		B5627E9425D6CDD7005970DE /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5627E9325D6CDD7005970DE /* NotificationCenter.swift */; };
+		B591943225CED92C00F96136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591943125CED92C00F96136 /* AppDelegate.swift */; };
+		B591943425CED92C00F96136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591943325CED92C00F96136 /* SceneDelegate.swift */; };
+		B591943625CED92C00F96136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591943525CED92C00F96136 /* ViewController.swift */; };
+		B591943925CED92C00F96136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B591943725CED92C00F96136 /* Main.storyboard */; };
+		B591943B25CED92D00F96136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B591943A25CED92D00F96136 /* Assets.xcassets */; };
+		B591943E25CED92D00F96136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B591943C25CED92D00F96136 /* LaunchScreen.storyboard */; };
+		B591944925CED92D00F96136 /* GJFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591944825CED92D00F96136 /* GJFitnessTests.swift */; };
+		B591945425CED92D00F96136 /* GJFitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591945325CED92D00F96136 /* GJFitnessUITests.swift */; };
+		B591946D25CEE0F400F96136 /* ClassViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591946C25CEE0F400F96136 /* ClassViewCell.swift */; };
+		B591947225CEFE3200F96136 /* BookTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591947125CEFE3200F96136 /* BookTableController.swift */; };
+		B5A9388F25D242F90082D4F1 /* SlotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9388E25D242F90082D4F1 /* SlotCollectionViewCell.swift */; };
+		B5C1633D25F107FE001BAA3A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1633C25F107FE001BAA3A /* SignUpViewController.swift */; };
+		B5C1634225F10860001BAA3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C1634125F10860001BAA3A /* LoginViewController.swift */; };
+		B5F9DAF225D0133800A6FDEA /* BookViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DAF125D0133800A6FDEA /* BookViewCell.swift */; };
+		B5F9DAF725D0615100A6FDEA /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DAF625D0615100A6FDEA /* TicketViewController.swift */; };
+		B5F9DAFC25D12A5C00A6FDEA /* TimeSlotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DAFB25D12A5B00A6FDEA /* TimeSlotController.swift */; };
+		B5F9DB0125D1389200A6FDEA /* RoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DB0025D1389200A6FDEA /* RoomViewCell.swift */; };
+		C98AE2EF7729E516DD9C770C /* Pods_GJFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65844AD85AB1477E7D685A7 /* Pods_GJFitness.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B591944525CED92D00F96136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B591942625CED92C00F96136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B591942D25CED92C00F96136;
+			remoteInfo = GJFitness;
+		};
+		B591945025CED92D00F96136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B591942625CED92C00F96136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B591942D25CED92C00F96136;
+			remoteInfo = GJFitness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0F7BE125EE1C940050F92D /* EditRoomNumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRoomNumberCell.swift; sourceTree = "<group>"; };
+		1A0F7BE625EE1E510050F92D /* EditRoomTimeSlotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRoomTimeSlotCell.swift; sourceTree = "<group>"; };
+		1A27BED225EBD38700BBC16E /* EditRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRoomViewController.swift; sourceTree = "<group>"; };
+		1A2C7E8925D8E0A000639591 /* RoomTimeSlotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTimeSlotCell.swift; sourceTree = "<group>"; };
+		1A78838225F5CE8200E70330 /* Trainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		1A78838A25F5DE2400E70330 /* Trainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainers.swift; sourceTree = "<group>"; };
+		1A78838F25F60D6D00E70330 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1A78839425F61ED500E70330 /* ClassEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassEx.swift; sourceTree = "<group>"; };
+		1A78839925F61FE100E70330 /* AllClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllClasses.swift; sourceTree = "<group>"; };
+		1A87385E25D5979E00B9DAF7 /* CreateClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateClassViewController.swift; sourceTree = "<group>"; };
+		1A89FE5225D250DA00A43667 /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
+		1A89FE5725D254ED00A43667 /* ClassListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListViewController.swift; sourceTree = "<group>"; };
+		1A89FE6425D255BA00A43667 /* ClassListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListCell.swift; sourceTree = "<group>"; };
+		1A9D993925E4E4A900784990 /* TrainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerViewController.swift; sourceTree = "<group>"; };
+		1AC9561325D819790014D200 /* TimeScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeScheduleViewController.swift; sourceTree = "<group>"; };
+		1AC9562025D822A60014D200 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		1AC9562525D826150014D200 /* TimeScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AC9563125D85B650014D200 /* RoomNumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomNumberCell.swift; sourceTree = "<group>"; };
+		71D84C2E9290F044DD9AD1B2 /* Pods-GJFitnessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJFitnessTests.debug.xcconfig"; path = "Target Support Files/Pods-GJFitnessTests/Pods-GJFitnessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90D46247924509E533D86B79 /* Pods-GJFitness-GJFitnessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJFitness-GJFitnessUITests.debug.xcconfig"; path = "Target Support Files/Pods-GJFitness-GJFitnessUITests/Pods-GJFitness-GJFitnessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		963F4289623FD7F552FD82F2 /* Pods-GJFitness-GJFitnessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJFitness-GJFitnessUITests.release.xcconfig"; path = "Target Support Files/Pods-GJFitness-GJFitnessUITests/Pods-GJFitness-GJFitnessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5071E2125F52489004AD5F1 /* EditSlotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSlotCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5071E2625F524AB004AD5F1 /* EditRoomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRoomViewCell.swift; sourceTree = "<group>"; };
+		B5071E2B25F524F7004AD5F1 /* EditTimeSlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeSlotViewController.swift; sourceTree = "<group>"; };
+		B5205FD425D972B900430198 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		B5205FD925D975A400430198 /* MemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
+		B5627E9325D6CDD7005970DE /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		B591942E25CED92C00F96136 /* GJFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B591943125CED92C00F96136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B591943325CED92C00F96136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B591943525CED92C00F96136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B591943825CED92C00F96136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B591943A25CED92D00F96136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B591943D25CED92D00F96136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B591943F25CED92D00F96136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B591944425CED92D00F96136 /* GJFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B591944825CED92D00F96136 /* GJFitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJFitnessTests.swift; sourceTree = "<group>"; };
+		B591944A25CED92D00F96136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B591944F25CED92D00F96136 /* GJFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B591945325CED92D00F96136 /* GJFitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJFitnessUITests.swift; sourceTree = "<group>"; };
+		B591945525CED92D00F96136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B591946C25CEE0F400F96136 /* ClassViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewCell.swift; sourceTree = "<group>"; };
+		B591947125CEFE3200F96136 /* BookTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableController.swift; sourceTree = "<group>"; };
+		B5A9388E25D242F90082D4F1 /* SlotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5C1633C25F107FE001BAA3A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B5C1634125F10860001BAA3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B5F9DAF125D0133800A6FDEA /* BookViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewCell.swift; sourceTree = "<group>"; };
+		B5F9DAF625D0615100A6FDEA /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		B5F9DAFB25D12A5B00A6FDEA /* TimeSlotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotController.swift; sourceTree = "<group>"; };
+		B5F9DB0025D1389200A6FDEA /* RoomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewCell.swift; sourceTree = "<group>"; };
+		CA43EF46869AC954D9DBB9F5 /* Pods-GJFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJFitness.debug.xcconfig"; path = "Target Support Files/Pods-GJFitness/Pods-GJFitness.debug.xcconfig"; sourceTree = "<group>"; };
+		D65844AD85AB1477E7D685A7 /* Pods_GJFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4659D89550F0594767E2C15 /* Pods-GJFitnessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJFitnessTests.release.xcconfig"; path = "Target Support Files/Pods-GJFitnessTests/Pods-GJFitnessTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC791209400284443E4FE846 /* Pods_GJFitnessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJFitnessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E9DB0BDA5F010C3B2A0A10 /* Pods_GJFitness_GJFitnessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJFitness_GJFitnessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC14C5B1B6AFFD55A63E6867 /* Pods-GJFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJFitness.release.xcconfig"; path = "Target Support Files/Pods-GJFitness/Pods-GJFitness.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B591942B25CED92C00F96136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98AE2EF7729E516DD9C770C /* Pods_GJFitness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B591944125CED92D00F96136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCD346D7E884AB6B6CEE2C7 /* Pods_GJFitnessTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B591944C25CED92D00F96136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBEDBCE9C60B18A7676BA7D /* Pods_GJFitness_GJFitnessUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A27BED125EBD2EE00BBC16E /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				1A27BED225EBD38700BBC16E /* EditRoomViewController.swift */,
+				1A0F7BE125EE1C940050F92D /* EditRoomNumberCell.swift */,
+				1A0F7BE625EE1E510050F92D /* EditRoomTimeSlotCell.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		1A78837D25F5CE3600E70330 /* DataClass */ = {
+			isa = PBXGroup;
+			children = (
+				1A78838225F5CE8200E70330 /* Trainer.swift */,
+				1A78838A25F5DE2400E70330 /* Trainers.swift */,
+				1A78838F25F60D6D00E70330 /* User.swift */,
+				1A78839425F61ED500E70330 /* ClassEx.swift */,
+				1A78839925F61FE100E70330 /* AllClasses.swift */,
+			);
+			path = DataClass;
+			sourceTree = "<group>";
+		};
+		1A89FE5125D24C7300A43667 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				1A27BED125EBD2EE00BBC16E /* Edit */,
+				1A9D993825E4E48400784990 /* Trainer */,
+				1ACF2C1625E3CF2E00D05E95 /* Member */,
+				1ADE3D9125D641DE0050B470 /* TimeSchedule */,
+				1ADE3D9025D641CD0050B470 /* CreateClass */,
+				1ADE3D8F25D641B30050B470 /* ClassList */,
+				1A89FE5225D250DA00A43667 /* Admin.storyboard */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		1A9D993825E4E48400784990 /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D993925E4E4A900784990 /* TrainerViewController.swift */,
+			);
+			path = Trainer;
+			sourceTree = "<group>";
+		};
+		1ACF2C1625E3CF2E00D05E95 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				B5205FD425D972B900430198 /* MemberViewController.swift */,
+				B5205FD925D975A400430198 /* MemberTableViewCell.swift */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		1ADE3D8F25D641B30050B470 /* ClassList */ = {
+			isa = PBXGroup;
+			children = (
+				1A89FE5725D254ED00A43667 /* ClassListViewController.swift */,
+				1A89FE6425D255BA00A43667 /* ClassListCell.swift */,
+			);
+			path = ClassList;
+			sourceTree = "<group>";
+		};
+		1ADE3D9025D641CD0050B470 /* CreateClass */ = {
+			isa = PBXGroup;
+			children = (
+				1A87385E25D5979E00B9DAF7 /* CreateClassViewController.swift */,
+				1AC9563125D85B650014D200 /* RoomNumberCell.swift */,
+				1A2C7E8925D8E0A000639591 /* RoomTimeSlotCell.swift */,
+			);
+			path = CreateClass;
+			sourceTree = "<group>";
+		};
+		1ADE3D9125D641DE0050B470 /* TimeSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				1AC9561325D819790014D200 /* TimeScheduleViewController.swift */,
+				1AC9562025D822A60014D200 /* RoomCell.swift */,
+				1AC9562525D826150014D200 /* TimeScheduleCollectionViewCell.swift */,
+			);
+			path = TimeSchedule;
+			sourceTree = "<group>";
+		};
+		38F85F27E55CB0B91B0082BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D65844AD85AB1477E7D685A7 /* Pods_GJFitness.framework */,
+				F0E9DB0BDA5F010C3B2A0A10 /* Pods_GJFitness_GJFitnessUITests.framework */,
+				EC791209400284443E4FE846 /* Pods_GJFitnessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		580D1F5A997E92927022CBFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA43EF46869AC954D9DBB9F5 /* Pods-GJFitness.debug.xcconfig */,
+				FC14C5B1B6AFFD55A63E6867 /* Pods-GJFitness.release.xcconfig */,
+				90D46247924509E533D86B79 /* Pods-GJFitness-GJFitnessUITests.debug.xcconfig */,
+				963F4289623FD7F552FD82F2 /* Pods-GJFitness-GJFitnessUITests.release.xcconfig */,
+				71D84C2E9290F044DD9AD1B2 /* Pods-GJFitnessTests.debug.xcconfig */,
+				E4659D89550F0594767E2C15 /* Pods-GJFitnessTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5071E1D25F522F1004AD5F1 /* ThirdScene */ = {
+			isa = PBXGroup;
+			children = (
+				B5071E2125F52489004AD5F1 /* EditSlotCollectionViewCell.swift */,
+				B5071E2B25F524F7004AD5F1 /* EditTimeSlotViewController.swift */,
+				B5071E2625F524AB004AD5F1 /* EditRoomViewCell.swift */,
+			);
+			path = ThirdScene;
+			sourceTree = "<group>";
+		};
+		B591942525CED92C00F96136 = {
+			isa = PBXGroup;
+			children = (
+				B591943025CED92C00F96136 /* GJFitness */,
+				B591944725CED92D00F96136 /* GJFitnessTests */,
+				B591945225CED92D00F96136 /* GJFitnessUITests */,
+				B591942F25CED92C00F96136 /* Products */,
+				580D1F5A997E92927022CBFD /* Pods */,
+				38F85F27E55CB0B91B0082BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B591942F25CED92C00F96136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B591942E25CED92C00F96136 /* GJFitness.app */,
+				B591944425CED92D00F96136 /* GJFitnessTests.xctest */,
+				B591944F25CED92D00F96136 /* GJFitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B591943025CED92C00F96136 /* GJFitness */ = {
+			isa = PBXGroup;
+			children = (
+				1A78837D25F5CE3600E70330 /* DataClass */,
+				B5C1633325F10780001BAA3A /* LoginGJ */,
+				1A89FE5125D24C7300A43667 /* Admin */,
+				B5D2384725D647010028661C /* Home */,
+				B5D2384A25D6498E0028661C /* Book */,
+				B591943125CED92C00F96136 /* AppDelegate.swift */,
+				B591943325CED92C00F96136 /* SceneDelegate.swift */,
+				B591943725CED92C00F96136 /* Main.storyboard */,
+				B591943A25CED92D00F96136 /* Assets.xcassets */,
+				B591943C25CED92D00F96136 /* LaunchScreen.storyboard */,
+				B591943F25CED92D00F96136 /* Info.plist */,
+				B5627E9325D6CDD7005970DE /* NotificationCenter.swift */,
+			);
+			path = GJFitness;
+			sourceTree = "<group>";
+		};
+		B591944725CED92D00F96136 /* GJFitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				B591944825CED92D00F96136 /* GJFitnessTests.swift */,
+				B591944A25CED92D00F96136 /* Info.plist */,
+			);
+			path = GJFitnessTests;
+			sourceTree = "<group>";
+		};
+		B591945225CED92D00F96136 /* GJFitnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B591945325CED92D00F96136 /* GJFitnessUITests.swift */,
+				B591945525CED92D00F96136 /* Info.plist */,
+			);
+			path = GJFitnessUITests;
+			sourceTree = "<group>";
+		};
+		B5C1633325F10780001BAA3A /* LoginGJ */ = {
+			isa = PBXGroup;
+			children = (
+				B5C1633C25F107FE001BAA3A /* SignUpViewController.swift */,
+				B5C1634125F10860001BAA3A /* LoginViewController.swift */,
+			);
+			path = LoginGJ;
+			sourceTree = "<group>";
+		};
+		B5D2384725D647010028661C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B5D2384825D648030028661C /* FirstScene */,
+				B5D2384925D648440028661C /* SecondScene */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B5D2384825D648030028661C /* FirstScene */ = {
+			isa = PBXGroup;
+			children = (
+				B591946C25CEE0F400F96136 /* ClassViewCell.swift */,
+				B591943525CED92C00F96136 /* ViewController.swift */,
+			);
+			path = FirstScene;
+			sourceTree = "<group>";
+		};
+		B5D2384925D648440028661C /* SecondScene */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9388E25D242F90082D4F1 /* SlotCollectionViewCell.swift */,
+				B5F9DAFB25D12A5B00A6FDEA /* TimeSlotController.swift */,
+				B5F9DB0025D1389200A6FDEA /* RoomViewCell.swift */,
+			);
+			path = SecondScene;
+			sourceTree = "<group>";
+		};
+		B5D2384A25D6498E0028661C /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				B5D2384E25D64A110028661C /* FirstScene */,
+				B5D2384F25D64A200028661C /* SecondScene */,
+				B5071E1D25F522F1004AD5F1 /* ThirdScene */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		B5D2384E25D64A110028661C /* FirstScene */ = {
+			isa = PBXGroup;
+			children = (
+				B591947125CEFE3200F96136 /* BookTableController.swift */,
+				B5F9DAF125D0133800A6FDEA /* BookViewCell.swift */,
+			);
+			path = FirstScene;
+			sourceTree = "<group>";
+		};
+		B5D2384F25D64A200028661C /* SecondScene */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9DAF625D0615100A6FDEA /* TicketViewController.swift */,
+			);
+			path = SecondScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B591942D25CED92C00F96136 /* GJFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B591945825CED92D00F96136 /* Build configuration list for PBXNativeTarget "GJFitness" */;
+			buildPhases = (
+				5D054BA9B2C8A29E90B1DF02 /* [CP] Check Pods Manifest.lock */,
+				B591942A25CED92C00F96136 /* Sources */,
+				B591942B25CED92C00F96136 /* Frameworks */,
+				B591942C25CED92C00F96136 /* Resources */,
+				51FA211EED3E06BC949C3CDF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJFitness;
+			productName = GJFitness;
+			productReference = B591942E25CED92C00F96136 /* GJFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B591944325CED92D00F96136 /* GJFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B591945B25CED92D00F96136 /* Build configuration list for PBXNativeTarget "GJFitnessTests" */;
+			buildPhases = (
+				13871599ADB7283B887B7E81 /* [CP] Check Pods Manifest.lock */,
+				B591944025CED92D00F96136 /* Sources */,
+				B591944125CED92D00F96136 /* Frameworks */,
+				B591944225CED92D00F96136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B591944625CED92D00F96136 /* PBXTargetDependency */,
+			);
+			name = GJFitnessTests;
+			productName = GJFitnessTests;
+			productReference = B591944425CED92D00F96136 /* GJFitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B591944E25CED92D00F96136 /* GJFitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B591945E25CED92D00F96136 /* Build configuration list for PBXNativeTarget "GJFitnessUITests" */;
+			buildPhases = (
+				191287003694A200D10367B5 /* [CP] Check Pods Manifest.lock */,
+				B591944B25CED92D00F96136 /* Sources */,
+				B591944C25CED92D00F96136 /* Frameworks */,
+				B591944D25CED92D00F96136 /* Resources */,
+				BA2EFB125A876B0A5279A7F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B591945125CED92D00F96136 /* PBXTargetDependency */,
+			);
+			name = GJFitnessUITests;
+			productName = GJFitnessUITests;
+			productReference = B591944F25CED92D00F96136 /* GJFitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B591942625CED92C00F96136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B591942D25CED92C00F96136 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B591944325CED92D00F96136 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B591942D25CED92C00F96136;
+					};
+					B591944E25CED92D00F96136 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B591942D25CED92C00F96136;
+					};
+				};
+			};
+			buildConfigurationList = B591942925CED92C00F96136 /* Build configuration list for PBXProject "GJFitness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B591942525CED92C00F96136;
+			productRefGroup = B591942F25CED92C00F96136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B591942D25CED92C00F96136 /* GJFitness */,
+				B591944325CED92D00F96136 /* GJFitnessTests */,
+				B591944E25CED92D00F96136 /* GJFitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B591942C25CED92C00F96136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A89FE5325D250DA00A43667 /* Admin.storyboard in Resources */,
+				B591943E25CED92D00F96136 /* LaunchScreen.storyboard in Resources */,
+				B591943B25CED92D00F96136 /* Assets.xcassets in Resources */,
+				B591943925CED92C00F96136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B591944225CED92D00F96136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B591944D25CED92D00F96136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13871599ADB7283B887B7E81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GJFitnessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		191287003694A200D10367B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GJFitness-GJFitnessUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51FA211EED3E06BC949C3CDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GJFitness/Pods-GJFitness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GJFitness/Pods-GJFitness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GJFitness/Pods-GJFitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D054BA9B2C8A29E90B1DF02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GJFitness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2EFB125A876B0A5279A7F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GJFitness-GJFitnessUITests/Pods-GJFitness-GJFitnessUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GJFitness-GJFitnessUITests/Pods-GJFitness-GJFitnessUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GJFitness-GJFitnessUITests/Pods-GJFitness-GJFitnessUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B591942A25CED92C00F96136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9DAFC25D12A5C00A6FDEA /* TimeSlotController.swift in Sources */,
+				1A2C7E8A25D8E0A000639591 /* RoomTimeSlotCell.swift in Sources */,
+				B591943625CED92C00F96136 /* ViewController.swift in Sources */,
+				1A78838325F5CE8200E70330 /* Trainer.swift in Sources */,
+				1AC9562625D826150014D200 /* TimeScheduleCollectionViewCell.swift in Sources */,
+				B5071E2225F52489004AD5F1 /* EditSlotCollectionViewCell.swift in Sources */,
+				1AC9561425D819790014D200 /* TimeScheduleViewController.swift in Sources */,
+				B5C1634225F10860001BAA3A /* LoginViewController.swift in Sources */,
+				B5627E9425D6CDD7005970DE /* NotificationCenter.swift in Sources */,
+				B5C1633D25F107FE001BAA3A /* SignUpViewController.swift in Sources */,
+				B5A9388F25D242F90082D4F1 /* SlotCollectionViewCell.swift in Sources */,
+				B5F9DB0125D1389200A6FDEA /* RoomViewCell.swift in Sources */,
+				B5205FD525D972B900430198 /* MemberViewController.swift in Sources */,
+				1AC9562125D822A60014D200 /* RoomCell.swift in Sources */,
+				B5205FDA25D975A400430198 /* MemberTableViewCell.swift in Sources */,
+				1A78839525F61ED500E70330 /* ClassEx.swift in Sources */,
+				B5071E2C25F524F7004AD5F1 /* EditTimeSlotViewController.swift in Sources */,
+				1A89FE6525D255BA00A43667 /* ClassListCell.swift in Sources */,
+				1A78838B25F5DE2400E70330 /* Trainers.swift in Sources */,
+				B591943225CED92C00F96136 /* AppDelegate.swift in Sources */,
+				B591947225CEFE3200F96136 /* BookTableController.swift in Sources */,
+				1A9D993A25E4E4A900784990 /* TrainerViewController.swift in Sources */,
+				1A0F7BE225EE1C940050F92D /* EditRoomNumberCell.swift in Sources */,
+				1A89FE5825D254ED00A43667 /* ClassListViewController.swift in Sources */,
+				1A78839A25F61FE100E70330 /* AllClasses.swift in Sources */,
+				B5F9DAF225D0133800A6FDEA /* BookViewCell.swift in Sources */,
+				1AC9563225D85B650014D200 /* RoomNumberCell.swift in Sources */,
+				B5F9DAF725D0615100A6FDEA /* TicketViewController.swift in Sources */,
+				B591943425CED92C00F96136 /* SceneDelegate.swift in Sources */,
+				1A27BED325EBD38700BBC16E /* EditRoomViewController.swift in Sources */,
+				B5071E2725F524AB004AD5F1 /* EditRoomViewCell.swift in Sources */,
+				B591946D25CEE0F400F96136 /* ClassViewCell.swift in Sources */,
+				1A0F7BE725EE1E510050F92D /* EditRoomTimeSlotCell.swift in Sources */,
+				1A87385F25D5979E00B9DAF7 /* CreateClassViewController.swift in Sources */,
+				1A78839025F60D6D00E70330 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B591944025CED92D00F96136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B591944925CED92D00F96136 /* GJFitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B591944B25CED92D00F96136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B591945425CED92D00F96136 /* GJFitnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B591944625CED92D00F96136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B591942D25CED92C00F96136 /* GJFitness */;
+			targetProxy = B591944525CED92D00F96136 /* PBXContainerItemProxy */;
+		};
+		B591945125CED92D00F96136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B591942D25CED92C00F96136 /* GJFitness */;
+			targetProxy = B591945025CED92D00F96136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B591943725CED92C00F96136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B591943825CED92C00F96136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B591943C25CED92D00F96136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B591943D25CED92D00F96136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B591945625CED92D00F96136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B591945725CED92D00F96136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B591945925CED92D00F96136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA43EF46869AC954D9DBB9F5 /* Pods-GJFitness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 399A548TW6;
+				INFOPLIST_FILE = GJFitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Krittamet-Chuwongworaphinit.GJFitness-James";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B591945A25CED92D00F96136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC14C5B1B6AFFD55A63E6867 /* Pods-GJFitness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 399A548TW6;
+				INFOPLIST_FILE = GJFitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Krittamet-Chuwongworaphinit.GJFitness-James";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B591945C25CED92D00F96136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D84C2E9290F044DD9AD1B2 /* Pods-GJFitnessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DY58D7G897;
+				INFOPLIST_FILE = GJFitnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Krittamet-Chuwongworaphinit.GJFitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJFitness.app/GJFitness";
+			};
+			name = Debug;
+		};
+		B591945D25CED92D00F96136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4659D89550F0594767E2C15 /* Pods-GJFitnessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DY58D7G897;
+				INFOPLIST_FILE = GJFitnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Krittamet-Chuwongworaphinit.GJFitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJFitness.app/GJFitness";
+			};
+			name = Release;
+		};
+		B591945F25CED92D00F96136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D46247924509E533D86B79 /* Pods-GJFitness-GJFitnessUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DY58D7G897;
+				INFOPLIST_FILE = GJFitnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Krittamet-Chuwongworaphinit.GJFitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GJFitness;
+			};
+			name = Debug;
+		};
+		B591946025CED92D00F96136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963F4289623FD7F552FD82F2 /* Pods-GJFitness-GJFitnessUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DY58D7G897;
+				INFOPLIST_FILE = GJFitnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Krittamet-Chuwongworaphinit.GJFitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GJFitness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B591942925CED92C00F96136 /* Build configuration list for PBXProject "GJFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B591945625CED92D00F96136 /* Debug */,
+				B591945725CED92D00F96136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B591945825CED92D00F96136 /* Build configuration list for PBXNativeTarget "GJFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B591945925CED92D00F96136 /* Debug */,
+				B591945A25CED92D00F96136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B591945B25CED92D00F96136 /* Build configuration list for PBXNativeTarget "GJFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B591945C25CED92D00F96136 /* Debug */,
+				B591945D25CED92D00F96136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B591945E25CED92D00F96136 /* Build configuration list for PBXNativeTarget "GJFitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B591945F25CED92D00F96136 /* Debug */,
+				B591946025CED92D00F96136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B591942625CED92C00F96136 /* Project object */;
+}
